@@ -29,3 +29,15 @@ Mac 自带已经有 Vim 了，所以这里只需按 Web 开发常用的习惯弄
 * [Powerline](https://github.com/powerline/powerline) 加强状态栏，可以在 Vim 状态栏中直接显示文件编码，语言类型等信息
 * [vim-commentary](https://github.com/tpope/vim-commentary) 代码注释，可以用快捷键快速注释
 * [NERD Tree](https://github.com/scrooloose/nerdtree) 文件管理插件
+
+### Sublime Text
+
+Sublime Text 3 [安装地址](http://www.sublimetext.com/3)
+
+安装 Package Control
+
+```
+import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```
+
+安装 Package Control 后可以利用 Package Control 安装插件，使用 Shift + Command + P 打开 Package Control，然后输入“Install Package”，然后安装 Emmet 等常用插件。
