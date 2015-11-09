@@ -41,3 +41,43 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 安装 Package Control 后可以利用 Package Control 安装插件，使用 Shift + Command + P 打开 Package Control，然后输入“Install Package”，然后安装 Emmet，CSS Format 等常用插件，这里再推荐一个 Material 风格的主题 Material Theme，在 Package 中搜索主题名即可找到。
+
+### 浏览器们
+Chrome，Firefox，Opera，Safari，IE，一个也不能少！
+
+### Xcode
+并没有什么好说的，App Store 安装。
+
+### Android Studio
+废弃 Eclipse，Android Studio 真的强大得多，[下载地址](https://developer.android.com/sdk/index.html)。
+
+### Sketch
+界面开发必备
+
+### PhotoShop
+好像没啥好说的
+
+## 环境依赖
+
+* Homebrew [官网](http://brew.sh/)，一款 OS X 的包管理工具，可以很方便地升级 Ruby，Python 等 Mac 自带的工具，以及安装新的工具，只需一句安装命令，Homebrew 会处理好编译以及安装路径等问题。
+* Sass `sudo gem install sass`，由于国内的网络问题，建议使用淘宝的 Ruby Gem 源替换官方源，可以点击[这里](https://ruby.taobao.org/)。
+* Compass `sudo gem install compass` 
+* Node.js [官网](https://nodejs.org/en/)
+* gulp `sudo npm install -g gulp`
+* Fontmin `npm install -g fontmin`，压缩字体的工具
+* 字蛛 `npm install font-spider -g`，[官网介绍](http://font-spider.org/)
+
+## 辅助工具
+
+### Wunderlist
+
+非常好用的 TODO App，支持的平台非常广泛，[官网](https://www.wunderlist.com/zh/)。
+
+### Evernote
+笔记类工具，支持的平台也是很广泛，功能强大，可以很方便地记录内容，甚至还有直接搜索图片中的文字的功能。
+
+### Dash
+一款开发文档集合应用，安装常用文档后可以直接离线搜索，搜索时可以同时搜索出 Google 和 StackOverflow 的相关结果。
+
+### Charles
+Mac 下唯一“能用”的抓包工具，类似 Windows 下的 Fiddler，进阶功能可以参考[《Fiddler与Charles的特殊用途 》](http://www.cnblogs.com/cos2004/archive/2013/04/17/3024171.html)
