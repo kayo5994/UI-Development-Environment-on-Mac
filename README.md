@@ -94,6 +94,12 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 ## 辅助工具
 
+### Snip
+
+截屏软件，功能简单实用，建议到[官网](http://snip.qq.com/)下载而不使用 App Store 的版本，因为官网的版本可以有滚动截屏的功能。
+
+关于滚动截屏功能，这里有个坑，直接在 Snip 中开启“启动滚动截屏”并不会生效，需要在系统偏好设置 -> 安全性与隐私 -> 隐私 -> 辅助功能 中勾选 Snip 才可以（勾选之前需要点击设置界面左下角的解锁按钮）。
+
 ### Wunderlist
 
 非常好用的 TODO App，支持的平台非常广泛，[官网](https://www.wunderlist.com/zh/)。
