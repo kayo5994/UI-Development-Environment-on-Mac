@@ -90,6 +90,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 * gulp `sudo npm install -g gulp`
 * Fontmin `npm install -g fontmin`，压缩字体的工具
 * 字蛛 `npm install font-spider -g`，[官网介绍](http://font-spider.org/)
+* git git 系统自带，并不需要安装，但是需要配置，请参考[这里](https://github.com/chenzhiwei/linux/tree/master/git)
 
 ## 辅助工具
 
