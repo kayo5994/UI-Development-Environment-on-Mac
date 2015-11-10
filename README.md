@@ -40,16 +40,40 @@ Sublime Text 3 [安装地址](http://www.sublimetext.com/3)
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 
-安装 Package Control 后可以利用 Package Control 安装插件，使用 Shift + Command + P 打开 Package Control，然后输入“Install Package”，然后安装 Emmet，CSS Format 等常用插件，这里再推荐一个 Material 风格的主题 Material Theme，在 Package 中搜索主题名即可找到。
+安装 Package Control 后可以利用 Package Control 安装插件，使用 Shift + Command + P 打开 Package Control，然后输入“Install Package”，然后安装 Emmet，CSS Format 等常用插件。
+
+这里再推荐一个 Material 风格的主题 Material Theme，在 "Install Package" 中搜索主题名即可找到。安装主题后重启 Sublime，如果主题没有生效，可以手动在 Preference -> Settings - User 中手动启用主题：
+
+```js
+{
+  "theme": "Material-Theme.sublime-theme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme"
+}
+```
+
+最后还可以加上一些常用配置：
+
+```js
+{
+  "word_wrap": true, // 自动换行
+  "font_size": 14 // 字号
+}
+```
 
 ### 浏览器们
-Chrome，Firefox，Opera，Safari，IE，一个也不能少！
+* [Chrome](www.google.cn/intl/zh-CN/chrome)
+* [Firefox](www.firefox.com.cn) 
+* [Opera](www.opera.com/zh-cn) 
+* Safari，系统自带
+* IE，要不虚拟机，要不另外弄一台 Windows 机器，不然呢？
 
 ### Xcode
 并没有什么好说的，App Store 安装。
 
 ### Android Studio
 废弃 Eclipse，Android Studio 真的强大得多，[下载地址](https://developer.android.com/sdk/index.html)。
+
+当然还需要 [JDK](http://www.oracle.com/technetwork/cn/java/javase/downloads/jdk8-downloads-2133151-zhs.html)。
 
 ### Sketch
 界面开发必备
@@ -59,7 +83,7 @@ Chrome，Firefox，Opera，Safari，IE，一个也不能少！
 
 ## 环境依赖
 
-* Homebrew [官网](http://brew.sh/)，一款 OS X 的包管理工具，可以很方便地升级 Ruby，Python 等 Mac 自带的工具，以及安装新的工具，只需一句安装命令，Homebrew 会处理好编译以及安装路径等问题。
+* Homebrew [官网](http://brew.sh/)，一款 OS X 的包管理工具，可以很方便地升级 Ruby，Python 等 Mac 自带的工具，以及安装新的工具，只需一句安装命令，Homebrew 会处理好编译以及安装路径等问题。**新机器强烈建议使用 Homebrew 升级了自身的 Ruby，Python 等环境再安装下面的依赖**
 * Sass `sudo gem install sass`，由于国内的网络问题，建议使用淘宝的 Ruby Gem 源替换官方源，可以点击[这里](https://ruby.taobao.org/)。
 * Compass `sudo gem install compass` 
 * Node.js [官网](https://nodejs.org/en/)
