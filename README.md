@@ -7,7 +7,8 @@ UI 工程师在 Mac 下的开发环境搭建，其中 Android 和 iOS 有完整�
 * 开发工具
 * 环境依赖
 * 辅助工具
-* 来点别的？
+* 其他
+
 
 ## 开发工具
 
@@ -70,6 +71,8 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ### Xcode
 并没有什么好说的，App Store 安装。
 
+对 UI 工程师来说，可以使用 Reveal 这款 App，它是一款可以在模拟器和真机上直接查看 View 层级结构和调试 View 的 App，还可以直接修改 UI 相关的属性值（颜色，距离）无需刷新马上生效。[官网](http://revealapp.com/)
+
 ### Android Studio
 废弃 Eclipse，Android Studio 真的强大得多，[下载地址](https://developer.android.com/sdk/index.html)。
 
@@ -100,15 +103,35 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 关于滚动截屏功能，这里有个坑，直接在 Snip 中开启“启动滚动截屏”并不会生效，需要在系统偏好设置 -> 安全性与隐私 -> 隐私 -> 辅助功能 中勾选 Snip 才可以（勾选之前需要点击设置界面左下角的解锁按钮）。
 
+### 马克鳗
+高效的设计稿标注、测量工具，用来标记设计稿倍儿棒，Mac 和 Windows 都支持，但设计稿格式目前只支持 PSD（需用最大兼容保存）、PNG、BMP、JPG格式，看上去没有打算支持 Sketch，详细介绍可以浏览[官网](http://www.getmarkman.com/)。
+
 ### Wunderlist
 
 非常好用的 TODO App，支持的平台非常广泛，[官网](https://www.wunderlist.com/zh/)。
 
 ### Evernote
+
 笔记类工具，支持的平台也是很广泛，功能强大，可以很方便地记录内容，甚至还有直接搜索图片中的文字的功能。
 
 ### Dash
+
 一款开发文档集合应用，安装常用文档后可以直接离线搜索，搜索时可以同时搜索出 Google 和 StackOverflow 的相关结果。
 
 ### Charles
+
 Mac 下唯一“能用”的抓包工具，类似 Windows 下的 Fiddler，进阶功能可以参考[《Fiddler与Charles的特殊用途 》](http://www.cnblogs.com/cos2004/archive/2013/04/17/3024171.html)
+
+### The Unarchiver 
+
+可以压缩和解压 rar 格式的文件，Mac 原生没有 rar 的支持，[下载](http://wakaba.c3.cx/s/apps/unarchiver)。
+
+### CleanMyMac
+
+清理系统、卸载软件，查看系统资源消耗等功能。
+
+## 其他
+
+* 触发角 在 Mac 中可以把鼠标/触控板移向屏幕的四个角落时可以触发一个操作，包括“将显示器置入睡眠状态”这个功能，配合“睡眠后需要输入密码唤醒”，可以在匆忙离开座位时滑一下鼠标就关屏，很方便。
+* 壁纸 [10wallpaper.com](http://10wallpaper.com/cn/)
+* 关于使用 Mac 的技巧可以看[这里](http://www.zhihu.com/question/20873070)
