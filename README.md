@@ -133,5 +133,6 @@ Mac 下唯一“能用”的抓包工具，类似 Windows 下的 Fiddler，进�
 ## 其他
 
 * 触发角 在 Mac 中可以把鼠标/触控板移向屏幕的四个角落时可以触发一个操作，包括“将显示器置入睡眠状态”这个功能，配合“睡眠后需要输入密码唤醒”，可以在匆忙离开座位时滑一下鼠标就关屏，很方便。
+* Mac 常用快捷键可以参考[这里](https://github.com/kayo5994/UI-Development-Environment-on-Mac/blob/master/mac/Mac_Shortcuts.jpg)，列举了绝大部分常用的快捷键。
 * 壁纸 [10wallpaper.com](http://10wallpaper.com/cn/)
 * 关于使用 Mac 的技巧可以看[这里](http://www.zhihu.com/question/20873070)
