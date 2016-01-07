@@ -30,6 +30,7 @@ Mac 自带已经有 Vim 了，所以这里只需按 Web 开发常用的习惯弄
 * [Powerline](https://github.com/powerline/powerline) 加强状态栏，可以在 Vim 状态栏中直接显示文件编码，语言类型等信息
 * [vim-commentary](https://github.com/tpope/vim-commentary) 代码注释，可以用快捷键快速注释
 * [NERD Tree](https://github.com/scrooloose/nerdtree) 文件管理插件
+* [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) 快速打开项目内的文件，类似 Sublime Text 的 Cmd + P 功能，可以模糊查询定位如工程下的所有文件，打开的 buffer，buffer 内的 tag，最近访问的文件等几乎所有你想定位的内容。
 
 ### Sublime Text
 
