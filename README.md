@@ -16,6 +16,20 @@ UI 工程师在 Mac 下的开发环境搭建，其中 Android 和 iOS 有完整�
 
 一款替代系统终端的工具，对各种操作都有优化，[这里](https://www.iterm2.com/)下载
 
+### Zsh + Oh My Zsh
+
+Mac 自带 Zsh，相比默认的 shell Bash，Zsh 实在强大得多，唯一的缺点就是配置相当复杂，但 Oh My Zsh 解决了这个问题，Oh My Zsh 本质是一个管理 Zsh 配置的框架，基本上直接安装了 Oh My Zsh，无需额外的配置，就可以马上上手 Zsh。
+
+Zsh 兼容 Bash，因此从 Bash 迁移到 Zsh 几乎没有成本，如果原本有 alias 在 ~/.bashrc 中，只需直接复制到 ~/.zshrc 中即可。但 Zsh 相比 Bash 有很多很方便的功能：
+
+* 强大的历史记录功能，例如在命令行中输入 d，然后回车，会列出最近访问过的目录列表，直接输入对应的序号即可跳转到该目录。输入 grep 然后用键盘上下键即可翻阅执行过的所有 grep 命令
+* 智能拼写纠正，例如输入命令时敲错了命令的一些字母，或者没注意大小写，Zsh 都可以自动纠正
+* 各种补全，路径补全和命令补全这些 Bash 也有，但 Zsh 可以做到命令参数补全，插件内容补全，触发补全只需按 Tab 键即可，补全结果还可以使用 Ctrl + n/p/f/b 上下左右切换
+* 预设的 alias，Oh My Zsh 不多但很实用，包括 .. 和 ... 这些常用的 alias，git 的别名设置等。
+* 很多方便的小细节，例如自动显示 git repository 所在的 branch，高亮当前文件夹名称（当然具体的高亮方案 Oh My Zsh 提供了几十种主题可以让你选择）等
+
+安装和使用 Oh My Zsh 可以参考[这里](https://github.com/robbyrussell/oh-my-zsh)。
+
 ### Vim 配置
 
 Mac 自带已经有 Vim 了，所以这里只需按 Web 开发常用的习惯弄好配置即可。
