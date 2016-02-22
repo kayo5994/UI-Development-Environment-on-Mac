@@ -12,9 +12,13 @@ UI 工程师在 Mac 下的开发环境搭建，其中 Android 和 iOS 有完整�
 
 ## 开发工具
 
-### iterm2
+### iTerm2
 
 一款替代系统终端的工具，对各种操作都有优化，[这里](https://www.iterm2.com/)下载
+
+iTerm2 在 2016/02/21 推出了 Version3 Beta 版本，添加了不少新功能，例如整合了一系列 Shell 增强功能，session 恢复（在 iTerm2 升级、强退后继续执行原有的任务，与 tmux 类似），命令行看图，密码管理等。
+
+详细的新版本的下载和功能介绍可以浏览器[这里](https://www.iterm2.com/version3.html)，另外附上一个中文翻译的[新特性介绍](https://segmentfault.com/a/1190000004464392)。
 
 ### Zsh + Oh My Zsh
 
