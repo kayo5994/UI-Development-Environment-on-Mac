@@ -18,6 +18,12 @@ UI 工程师在 Mac 下的开发环境搭建，其中 Android 和 iOS 有完整�
 
 iTerm2 在 2016/02/21 推出了 Version3 Beta 版本，添加了不少新功能，例如整合了一系列 Shell 增强功能，session 恢复（在 iTerm2 升级、强退后继续执行原有的任务，与 tmux 类似），命令行看图，密码管理等。
 
+其中命令行看图需要依赖 imgcat 脚本，这个脚本并没有被集成到 iTerm2 中，这里尝试了几种不同的安装方案，比较推荐使用 npm 安装：
+
+```
+npm install -g imgcat
+```
+
 详细的新版本的下载和功能介绍可以浏览器[这里](https://www.iterm2.com/version3.html)，另外附上一个中文翻译的[新特性介绍](https://segmentfault.com/a/1190000004464392)。
 
 ### Zsh + Oh My Zsh
