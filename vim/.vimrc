@@ -77,3 +77,5 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
+  
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
