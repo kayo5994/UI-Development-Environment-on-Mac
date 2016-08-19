@@ -66,6 +66,7 @@ Sublime Text 3 [安装地址](http://www.sublimetext.com/3)
 安装 Package Control
 
 ```
+#使用 Control + ~ 打开 Sublime 的控制台，输入以下命令
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 
@@ -90,9 +91,9 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 ### 浏览器们
-* [Chrome](www.google.cn/intl/zh-CN/chrome)
-* [Firefox](www.firefox.com.cn) 
-* [Opera](www.opera.com/zh-cn) 
+* [Chrome](http://www.google.cn/intl/zh-CN/chrome)
+* [Firefox](http://www.firefox.com.cn) 
+* [Opera](http://www.opera.com/zh-cn) 
 * Safari，系统自带
 * IE，要不虚拟机，要不另外弄一台 Windows 机器，不然呢？
 
@@ -105,6 +106,9 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 废弃 Eclipse，Android Studio 真的强大得多，[下载地址](https://developer.android.com/sdk/index.html)。
 
 当然还需要 [JDK](http://www.oracle.com/technetwork/cn/java/javase/downloads/jdk8-downloads-2133151-zhs.html)。
+
+### Genymotion 
+Genymotion 是一款第三方提供的安卓模拟器，堪称最快的安卓模拟器，并且生成模拟器设备也很方便。[官网](https://www.genymotion.com/)
 
 ### Sketch
 界面开发必备
