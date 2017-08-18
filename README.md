@@ -21,7 +21,7 @@ iTerm2 在 2016/02/21 推出了 Version3 Beta 版本，添加了不少新功能�
 其中命令行看图需要依赖 imgcat 脚本，这个脚本并没有被集成到 iTerm2 中，这里尝试了几种不同的安装方案，比较推荐使用 npm 安装：
 
 ```
-npm install -g imgcat
+npm install -g imgcat-cli
 ```
 
 密码管理器功能也相当实用，利用了系统的“钥匙串访问”功能储存账号密码信息。密码管理器的开启利用了 iTerm2 的 Triggers 功能，Triggers 本身是一个很方便的功能，设置了特定的关键词后，当 iTerm2 界面内出现这些关键词时可以发起一个操作。因此我们可以检查到如果屏幕内有密码相关关键词时，就调起密码管理器即可。Triggers 的设置入口：Preferences - Profiles - Advanced - Triggers
